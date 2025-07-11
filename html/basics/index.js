@@ -174,7 +174,7 @@ if (50 + 80 === a + 20) {
   }
 } else if (30 + 90 === a) {
   console.log("it's true @2");
-} else if (30 + 70 === a + b) {
+} else if (30 + 70 !== a + b) {
   console.log("it's true @3");
 
   if (typeof a !== "number") {

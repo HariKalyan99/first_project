@@ -144,3 +144,50 @@
 // const a = "hello";
 
 // console.log(a + '[]')
+
+// if else condition
+
+// console.log(100 + 20 != 120);
+
+// const val = "razor";
+
+// if (!(false === null)) {
+//   console.log("yes it is true");
+// } else {
+//   console.log("no it is false");
+// }
+
+// console.log(typeof (val + 100) === "string")
+
+//  == , ===
+
+var a = 100;
+var b = 0;
+
+if (50 + 80 === a + 20) {
+  console.log("it's true @1");
+
+  if (typeof a !== "number") {
+    console.log("yes it is a number");
+  } else {
+    console.log("no it is not a number");
+  }
+} else if (30 + 90 === a) {
+  console.log("it's true @2");
+} else if (30 + 70 === a + b) {
+  console.log("it's true @3");
+
+  if (typeof a !== "number") {
+    console.log("yes it is a number");
+  } else {
+    console.log("no it is not a number");
+  }
+} else {
+  console.log("it's false");
+}
+
+
+
+// console.log(typeof 1)
+
+// console.log("number" === 'number')

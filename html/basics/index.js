@@ -161,33 +161,80 @@
 
 //  == , ===
 
-var a = 100;
-var b = 0;
+// var a = 100;
+// var b = 0;
 
-if (50 + 80 === a + 20) {
-  console.log("it's true @1");
+// if (50 + 80 === a + 20) {
+//   console.log("it's true @1");
 
-  if (typeof a !== "number") {
-    console.log("yes it is a number");
-  } else {
-    console.log("no it is not a number");
-  }
-} else if (30 + 90 === a) {
-  console.log("it's true @2");
-} else if (30 + 70 !== a + b) {
-  console.log("it's true @3");
+//   if (typeof a !== "number") {
+//     console.log("yes it is a number");
+//   } else {
+//     console.log("no it is not a number");
+//   }
+// } else if (30 + 90 === a) {
+//   console.log("it's true @2");
+// } else if (30 + 70 !== a + b) {
+//   console.log("it's true @3");
 
-  if (typeof a !== "number") {
-    console.log("yes it is a number");
-  } else {
-    console.log("no it is not a number");
-  }
-} else {
-  console.log("it's false");
-}
+//   if (typeof a !== "number") {
+//     console.log("yes it is a number");
+//   } else {
+//     console.log("no it is not a number");
+//   }
+// } else {
+//   console.log("it's false");
+// }
 
 
 
 // console.log(typeof 1)
 
 // console.log("number" === 'number')
+
+
+// Loops -> loops are those which occur for multiple execution of the described code.
+// for(initialization, condition, updater) {
+
+
+// }
+
+// for loop
+
+// let arr = [
+//   "hello this is my new text" , //0
+//    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus voluptate in nesciunt!" , //1
+//   "Illum, doloribus deleniti dolorem, et amet ipsum adipisci quos, quae magni saepe nostrum modi! Quaerat, delectus qui!", //2
+// ]
+
+
+// for(i = -10; i<=-5; i--){ // (i = 0) (0 < 10) (i + 1)/(i++) => i = 1
+//   console.log(i)
+// }
+
+// var i = 1;
+
+// for(i; i<=11; i+=5){ // (i = 0) (0 < 10) (i + 1)/(i++) => i = 1
+//   console.log(i)
+// }
+// console.log(i+=10)
+
+// i = 10 + 15 => i+=15
+
+// indexing
+
+
+// 0 -> 1 --> 2 ---> 3
+// first iteration // (i = 0) (0 < 10) (i + 1)/(i++) => i = 1
+// second iteration // (i = 1) (1 < 10) (1 + 1)/(i++) => i = 2
+// third iteration // (i = 2) (2 < 10) (1 + 1)/(i++) => i = 2
+// .
+// . 
+// .
+// .
+
+
+// var b = 10;
+// b+=1;
+
+// console.log(b + 1);

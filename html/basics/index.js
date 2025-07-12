@@ -214,6 +214,7 @@
 
 // var i = 1;
 
+
 // for(i; i<=11; i+=5){ // (i = 0) (0 < 10) (i + 1)/(i++) => i = 1
 //   console.log(i)
 // }
@@ -238,3 +239,27 @@
 // b+=1;
 
 // console.log(b + 1);
+
+
+// loop starts from 5 -> (excluding)500 and reverse it 
+// now start from 498 while reversing it?
+// skip 5 on each iteration?
+
+
+// loop starts from 2 -> (excluding)10 and reverse it 
+// now start from 8 while reversing it?
+// skip 3 on each iteration?
+// print "the number I am iterating is: " + val on every iteration
+
+
+
+// non primitive data types
+
+
+function gokul(){ //declaration
+  // code exec start
+  console.log("Good evening");
+  // code exec end
+}
+
+gokul(); // fn call

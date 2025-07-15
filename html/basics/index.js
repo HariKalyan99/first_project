@@ -256,10 +256,74 @@
 // non primitive data types
 
 
-function gokul(){ //declaration
-  // code exec start
-  console.log("Good evening");
-  // code exec end
+// function gokul(){ //declaration
+//   // code exec start
+//   console.log("Good evening");
+//   // code exec end
+// }
+
+// gokul(); // fn call
+
+
+
+// function greetings(parameters) { // declaration
+  
+// }
+
+// greetings(arguements); // call
+
+
+// function greetings
+
+// case -> 
+
+
+// greetingsFunction -> camelcase letters
+// Greetingsfunction -> pascal/title case letters
+// greetings-function -> kebab case letters
+// greetings_function -> snake case letters
+
+
+
+
+function asdkasdka(valalalala1, val2, val3, val4, val5, val6){
+  console.log(typeof valalalala1, "value: ", valalalala1);
+  console.log(typeof val2, "value: ", val2);
+  console.log(typeof val3, "value: ", val3);
+  console.log(typeof val4, "value: ", val4);
+  console.log(typeof val5, "value: ", val5);
+  console.log(typeof val6, "value: ", val6);
+
+  // 
+
+  console.log(valalalala1, val2, val3, val4, val5, val6);
+
 }
 
-gokul(); // fn call
+asdkasdka("10", true, 10, undefined, null, "good morning");
+
+
+
+function greetings(val){
+  console.log("its " + val + " o clock in the morning")
+}
+
+greetings(10) 
+
+// greet according to time (24h format)
+// pass arguments, based on those greet accordingly
+// ex 6 -> "good morning!"
+// ex 15 -> "good afternoon!"
+// ex 18 -> "good evening!"
+// ex 21 -> "good night!"
+
+
+// 1-12 as "good morning!"
+// 13-16 as "good afternoon!"
+// 16-19 as "good evening!"
+// 19-23 as "good night!"
+
+
+
+// countdown timer
+// create a function to count down from 100 - 0;

@@ -320,9 +320,7 @@
 // // // value = null
 // // // console.log(typeof null && value === null)
 
-
 // // // console.log(typeof {} === typeof null)
-
 
 // // // function counter() {
 // // //   for (let i = 1; i <= 10; i++) {
@@ -333,7 +331,6 @@
 // // // // Call the function
 // // // counter();
 
-
 // // // function fullName(lastName, brotherName){
 // // //   // console.log(brotherName)
 // // //   console.log("My name is Gokul " + lastName);
@@ -341,10 +338,7 @@
 // // //   return
 // // // }
 
-
 // // // fullName("Gurumurthy", "ashwin")
-
-
 
 // // function fullName(lastName){
 // //   const firstName = "Gokul"; // gokul
@@ -355,29 +349,23 @@
 // //   return `My name is ${fullName}` // true
 // // }
 
-
 // // // const myName = fullName("Gurumurthy");
 
-
 // // console.log(fullName("Gurumurthy"))
-
-
-
 
 // // let outPut;
 // function name() {
 //   // declare 'output' as a variable;
 //   // use for loop for countdown from 10 - 1;
-//   // 
+//   //
 // }
-
 
 // function countUp(){
 //   let time = 0;
 //   for(let i = 0; i<=10; i++){ // 0, 1, 2 +1 , 3, 4+ 1, 5, 6+1, ....10 + 1
-//  console.log(i); 
+//  console.log(i);
 
-//     time = i + 1; 
+//     time = i + 1;
 //   }
 //   console.log(time); // 11
 //   return time;
@@ -385,120 +373,119 @@
 
 // // console.log(countUp());
 
-
-
 // // // `my name is hari ${}`
-
-
-
-
-
-
-
 
 // // function print100(value){
 // //   return value;
 // // }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // function printEven(){
 //   for(let i = 1; i<=10; i++){ // 0, 1, 2 +1 , 3, 4+ 1, 5, 6+1, ....10 + 1
 //     if(i%2 === 0){
 //       console.log(`${i} is even number`)
-//     } 
+//     }
 //   }
 // }
 
 // printEven()
 
+// scoped variables
 
+// global scoped
 
+// var a = 10;
+// let b = 11;
+// const c = 12;
 
+// {
+//     var d = 13;
+//     let e = 14;
+//     const f = 15;
+//     console.log(a, b, c, d, e, f, "Block");
+// }
 
 
+// function h() {
+//     var g = 16;
+//     let h = 17;
+//     const i = 18;
+//     console.log(a, b, c, d, g, h, i, "Function");
+// }
 
+// h();
 
 
 
+// console.log(a, b, c, d, "Global");
+// {
+//   // block scoped
+//   var d = 13;
+//   let e = 14;
+//   const f = 15;
 
+//   console.log(a, b, c, d, e, f, g, h, i);
+// }
 
+// function hydra() {
+//   // function scoped
+//   var g = 10;
+//   let h = 11;
+//   const i = 12;
+//   // local scoped to the function
+//   console.log(a, b, c, d, e, f, g, h, i);
+// }
 
+// hydra();
 
+// console.log(a, b, c, d, e, f, g, h, i);
 
+// var declare time = 0
+// for 1 => 10
+// even + 1;
+// {
+// var time ++
+// }
+// return time;
 
 
 
 
 
 
+// ref and val
 
+// pass by value
 
+function hail(val){
+    val+=1;
+    return val;
+}
 
+var a = 1;
 
+const out = hail(a)
 
+console.log(out);
+console.log(a);
 
+// pass by ref
 
+// function hail(val){
+//     val[1] = 10;
+//     return val;
+// }
 
+// var a = [1, 2];
 
+// const out = hail(a)
 
+// console.log(out);
+// console.log(a);
 
+// // arr and obj
 
+// const arr = [1,2,3,4];
 
+// arr[100] = 100;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(arr[5])

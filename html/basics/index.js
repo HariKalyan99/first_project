@@ -452,55 +452,90 @@
 
 
 
-// ref and val
+// pass by ref and pass by val
 
 // pass by value
 
+
+// var num1 = 1; // #address1
+// var num2 = num1; // #address2
+// var num3 = num2 // address3
+// // num3 = 2
+// console.log(num1, num2, num3);
+
+// const str = "hello";
+// str[0] = "f"
+// console.log(str[0])
+
+
+
+// var arr1 = [1,2,3]; // address 1
+// var arr2 = arr1; // address 1
+
+// var arr3 = arr2; // --> address 2 // ref
+
+// arr3[0] = 10
+
+// console.log(arr1, arr2, arr3);
+
+
+// var obj1 = {
+//     name: "Hari",
+//     age: 25,
+//     male: false,
+//     nestedDetails: {
+//         address: "kengeri",
+//         country: {
+//             india: true
+//         }
+//     },
+//     1: 560060,
+//     arr: [10,200,2220,10],
+// }
+
+// obj2 = obj1;
+// obj1 = obj2;
+// obj3 = obj1;
+// obj3["male"] = !false;
+
+// obj1["name"] = 'kalyan';
+
+// obj1["nestedDetails"].address =  {
+//     kengeri: "satellite town"
+// }
+
+// console.log(obj1, obj2, obj3);
+
+// 
+
+
+// function hail(val){
+//     val+=1;
+//     return val;
+// }
+
+// var a = 1;
+
+// const out = hail(a)
+
+// console.log(out); // 
+// console.log(a); // 
+
+// pass by ref
+
+
 function hail(val){
-    val+=1;
+    val[1] = 10;
+    // console.log(val) => [1,10]
     return val;
 }
 
-var a = 1;
-// function asdkasdka(valalalala1, val2, val3, val4, val5, val6){
-//   console.log(typeof valalalala1, "value: ", valalalala1);
-//   console.log(typeof val2, "value: ", val2);
-//   console.log(typeof val3, "value: ", val3);
-//   console.log(typeof val4, "value: ", val4);
-//   console.log(typeof val5, "value: ", val5);
-//   console.log(typeof val6, "value: ", val6);
-
-//   // 
-
-//   console.log(valalalala1, val2, val3, val4, val5, val6);
-
-// }
-
-// asdkasdka("10", true, 10, undefined, null, "good morning");
+var a = [1, 2];
 
 const out = hail(a)
 
 console.log(out);
 console.log(a);
-
-// pass by ref
-
-// function hail(val){
-//     val[1] = 10;
-//     return val;
-// }
-// function greetings(val){
-//   console.log("its " + val + " o clock in the morning")
-// }
-
-// greetings(10) 
-
-// var a = [1, 2];
-
-// const out = hail(a)
-
-// console.log(out);
-// console.log(a);
 
 // // arr and obj
 
@@ -509,102 +544,17 @@ console.log(a);
 // arr[100] = 100;
 
 // console.log(arr[5])
-// countdown timer
-// create a function to count down from 100 - 0;
 
 
 
-// arr 
 
-// let arr1 = [1, '2', true, undefined, null,  [1, 2, 3, [1, 2, 3, 4]]];
+// const fresh = {
+//     name: "hari"
+// }
+// console.log(fresh)
 
-
-
-// let obj = {
-//   dob: "16/03/2000",
-//   name: "hari",
-//   male: true,
-//   age: 25,
-//   happy: () => {
-//     console.log("yes")
-//   },
-//   arr1
-
+// fresh.name = {
+//     hari: "harikalyan"
 // }
 
-// console.log(obj)
-
-// arr = [1, '2', true, undefined, null, obj, [1, 2, 3, [1, 2, 3, 4]]];
-
-
-// console.log(arr);
-
-
-// let obj = {
-//   key: "value",
-// }
-
-
-// let str = "";
-
-// str = "hello";
-
-// console.log(str);
-
-
-
-
-// let alpha = "hello world";
-
-
-// alpha[1] = "v"
-// console.log(alpha)
-
-
-// const str = "hello";
-// str[1] = "h"
-
-// const arr = ["hello", "world", 1,2,3]
-
-
-// arr[0] = "morning";
-
-// console.log(arr)
-// console.log(str)
-
-
-// let a = "hello"; // #116ghha892
-// let b = a; // #117ghha892
-
-// b[0] = "j"
-
-// console.log(a, b)
-
-// let c = [100, 101]; // #116ghha893
-
-// let d = c; // #116ghha893 [100, 101]
-
-// let e = d;
-
-// e[0] = "201" 
-// console.log(c, d)
-
-
-
-function objMutation(str) {
-  return str
-}
-
-
-
-const obj = {
-  name: 'Hari',
-  age:25
-}
-
-
-
-
-// const fnOutput = objMutation("hello") // => obj
-
-console.log(objMutation("hello"))
+// console.log(fresh)

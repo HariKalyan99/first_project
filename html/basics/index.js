@@ -404,7 +404,6 @@
 // //     console.log(a, b, c, d, e, f, "Block");
 // // }
 
-
 // // function h() {
 // //     var g = 16;
 // //     let h = 17;
@@ -413,8 +412,6 @@
 // // }
 
 // // h();
-
-
 
 // // console.log(a, b, c, d, "Global");
 // // {
@@ -447,27 +444,19 @@
 // // }
 // // return time;
 
-
-
-
-
-
 // // pass by ref and pass by val
 
 // // pass by value
-
 
 // // var num1 = 1; // #address1
 // // var num2 = num1; // #address2
 // // var num3 = num2 // address3
 // // num3 = 2
-// // console.log(num1, num2, num3);                                                                               
+// // console.log(num1, num2, num3);
 
 // // const str = "hello";
 // // str[0] = "f"
 // // console.log(str[0])
-
-
 
 // // var arr1 = [1,2,3]; // address 1
 // // var arr2 = arr1; // address 1
@@ -477,7 +466,6 @@
 // // arr3[0] = 10
 
 // // console.log(arr1, arr2, arr3);
-
 
 // // var obj1 = {
 // //     name: "Hari",
@@ -506,8 +494,7 @@
 
 // // console.log(obj1, obj2, obj3);
 
-// // 
-
+// //
 
 // // function hail(val){
 // //     val+=1;
@@ -518,11 +505,10 @@
 
 // // const out = hail(a)
 
-// // console.log(out); // 
-// // console.log(a); // 
+// // console.log(out); //
+// // console.log(a); //
 
 // // pass by ref
-
 
 // // function hail(val){
 // //     val[1] = 10;
@@ -545,9 +531,6 @@
 
 // // console.log(arr[5])
 
-
-
-
 // // const fresh = {
 // //     name: "hari"
 // // }
@@ -563,13 +546,11 @@
 // //     console.log(i)
 // // }
 
-
 // // let j = 0;
 // // while(j < 10) {
 // //     console.log(j);
 // //     j++;
 // // }
-
 
 // function pass(array) {
 //     array[2] = 10000;
@@ -577,41 +558,88 @@
 //     return array;
 // }
 
-
 // let arr = [1,2,3,4]
 
 // let arrFn = pass(arr);
 
 // console.log(arrFn);
 
-
 // console.log(arr);
 
+// while
+
+// let j = 0;
+// while(j < 10) {
+//     console.log(j);
+//     j++;
+// }
+
+// function sum(a,b){
+//     const out = a+b
+//     return out
+// }
+
+// const a = 3
+// const b = 4
+
+// console.log(sum(a,b));
+
+function even(value) {
+  if (value % 2 === 0) {
+    return "Even";
+  }
+  return "Odd";
+}
+
+// console.log(even(10))
+
+// function prime(value) {
+//   if (value === null || value === undefined) return "enter a valid numeric char";
+//   if (value >= 0 && value <= 2) return "Not a valid number";
+//   if (value >= "a" && value <= "z") return "NAN";
+//   if (typeof value === "string") return "pass a number";
+
+//   let count = 0;
+//   for (let i = 1; i <= value; i++) {
+//     //   console.log(value%i, value , i)
+//     if (value % i === 0) {
+//       count++; // 1, 2
+//     }
+//   }
+//   if (count > 2) {
+//     return "Not a Prime number";
+//   }
+//   return "Prime";
+// }
+
+// console.log(prime(undefined));
+
+// function pal(str) {
+//   let emptyStr = ""; // nitin
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     emptyStr += str[i]; //"" + n, n + i = ni, ni + t
+//   }
+//   // return
+//   if (emptyStr === str) {
+//     return "Palindrome";
+//   }
+//   return "Not a Palindrome";
+// }
+
+// console.log(pal("nitin"));
 
 
+//  value = 10, 5 * 2 = 10
 
+// function evenWithoutMod(value) {
+//     let arr = [ 2,4,6,8,10]
+//     for(let i = 0; i <= arr.length; i++){
+//        if(arr[i] === value){
+//         return "Even"
+//        }
+//     }
+//     return "Odd"
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(evenWithoutMod(5))
 

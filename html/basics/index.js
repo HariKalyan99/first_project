@@ -643,3 +643,72 @@ function even(value) {
 
 // console.log(evenWithoutMod(5))
 
+
+
+// find the sum of natural numbers
+
+
+// function naturalNum(value){
+//   let num = 0;
+//   for(let i = 0; i<=value; i++){
+//     num+=i;
+//   }
+
+//   return num;
+// }
+
+
+// console.log(naturalNum(10))
+
+
+// function naturalNumber(val){
+//   let op = null;
+
+//   for(let i =0; i<=val; i++){
+//     op+=i
+//       // console.log(op+=i, "out: ", op, "i: ", i);
+//   }
+
+//   return op
+
+// }
+
+// console.log(naturalNumber(10))
+
+
+
+function fn(str){
+}
+fn("dollar");
+
+// reverse a string 
+// output // dollar => rallod ans
+
+function maxEvenNumber(val){
+}
+
+maxEvenNumber(11);
+
+// find maximum even number between 1 - N, where N is an arguement that is 11.
+// output // 11 => 10 ans
+
+function sumOfOdd(val){
+}
+sumOfOdd(10);
+
+// find the sum of all the odd numbers
+// output // 10 => 1+3+5+7+9 = 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+

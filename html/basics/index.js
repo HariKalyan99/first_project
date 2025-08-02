@@ -631,15 +631,15 @@ function even(value) {
 
 //  value = 10, 5 * 2 = 10
 
-// function evenWithoutMod(value) {
-//     let arr = [ 2,4,6,8,10]
-//     for(let i = 0; i <= arr.length; i++){
-//        if(arr[i] === value){
-//         return "Even"
-//        }
-//     }
-//     return "Odd"
-// }
+function evenWithoutMod(value) {
+    let arr = [ 2,4,6,8,10]
+    for(let i = 0; i <= arr.length; i++){
+       if(arr[i] === value){
+        return "Even"
+       }
+    }
+    return "Odd"
+}
 
-// console.log(evenWithoutMod(5))
+console.log(evenWithoutMod(5))
 
